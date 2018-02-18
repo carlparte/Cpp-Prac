@@ -7,7 +7,9 @@ int main()
     string name;
     cin >> name;
     const string greeting = "Hello, " + name + "!";
-    const int pad=1;
+    int pad=1;
+    cout<< "Enter the number of spaces: ";
+    cin >> pad;
     const int rows=pad*2+3;
     const string::size_type cols=greeting.size()+pad*2+2;
     cout<<endl;
